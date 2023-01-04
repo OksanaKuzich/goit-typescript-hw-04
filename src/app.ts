@@ -28,7 +28,6 @@ class Key {
   }
 
   public getSignature(): number {
-    console.log("Render Key: " + this.signature);
     return this.signature;
   }
 }
